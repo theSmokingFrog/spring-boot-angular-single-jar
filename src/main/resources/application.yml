@@ -1,0 +1,19 @@
+application:
+  version: "@project.version@"
+  buildTimestamp: "@maven.build.timestamp@"
+  git:
+    branch: "@git.branch@"
+    abbrevcommit: "@git.commit.id.abbrev@"
+server:
+  port: 3000
+spring:
+  datasource:
+    url: "jdbc:h2:mem:library"
+    username: sa
+    password:
+  data:
+    rest:
+      base-path: "/api"
+  jpa:
+    hibernate:
+      ddl-auto: "none"
