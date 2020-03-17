@@ -17,3 +17,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: "none"
+  h2:
+    console:
+      enabled: false
