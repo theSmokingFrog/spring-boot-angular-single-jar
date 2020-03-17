@@ -5,13 +5,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import dev.nhoffmann.thelibrary.adapters.rest.model.UserVM;
+
 @RestController
 @RequestMapping("/api/user")
 public class UserEntrypoint
 {
     @GetMapping
-    public ResponseEntity<String> helloWorld()
+    public ResponseEntity<UserVM> helloWorld()
     {
-        return ResponseEntity.ok("hello World");
+        return ResponseEntity.ok(new UserVM("John", "Wick"));
     }
 }

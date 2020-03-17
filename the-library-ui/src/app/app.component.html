@@ -1,4 +1,4 @@
 <main>
-    <h1>example.com</h1>
-    <p>Our website is under construction.</p>
+    <h1>{{(mockedUser$ | async)?.firstName}}</h1>
+    <p>{{(mockedUser$ | async)?.lastName}}</p>
 </main>
