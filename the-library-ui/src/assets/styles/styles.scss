@@ -1,0 +1,12 @@
+@import "config/fonts.config";
+@import "config/bootstrap.config";
+
+// Standard Imports
+@import "~bootstrap/scss/bootstrap";
+
+// Additonal Configuration
+body,
+html {
+    height: 100%;
+    margin: 0;
+}

@@ -1,0 +1,48 @@
+/*
+ * The Library Bootstrap Configuration
+ * -----------------------------------------
+ * All changes introduced here are inspired by https://www.happyhues.co/palettes/9
+ */
+
+
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace:  "Roboto Mono", monospace;
+
+// Color Pallete
+$white:                  #fffffe;
+$yellow:                 #FFD63C;
+$orange:                 #ff8e3c;
+$red:                    #F4696D;
+$pink:                   #d9376e;
+$purple:                 #845D96;
+$green:                  #27C464;
+$teal:                   #00C9AB;
+$cyan:                   #00A4B7;
+$blue:                   #0E7DA8;
+$indigo:                 #49577F;
+$black:                  #0d0d0d;
+
+// Grays Pallete
+$gray-100:               #F8F9FA;
+$gray-200:               #eff0f3;
+$gray-300:               #D3D6D6;
+$gray-400:               #B7BAB9;
+$gray-500:               #9B9D9C;
+$gray-600:               #80807F;
+$gray-700:               #636363;
+$gray-800:               #474747;
+$gray-900:               #2a2a2a;
+
+// Overrides for color aliases
+$primary:                $orange;
+$danger:                 $pink;
+$info:                   $blue;
+$light:                  $gray-200;
+$dark:                   $gray-900;
+
+// Basic and Form Overrides
+$yiq-text-dark:          $dark;
+$body-bg:                $gray-200;
+$body-color:             $black;
+$input-disabled-bg:      $gray-400;
+$input-group-addon-bg:   $gray-300;
